@@ -2195,3 +2195,81 @@ Binding(CTRL+SHIFT+C,
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 13:03:18.505
 !MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.faqZFrLv => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 13:57:15.228
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 13:57:15.228
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@64bc8da[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=558)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 13:57:15.229
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 13:57:16.646
+!MESSAGE Boot LS startup time from start to initialized: 1416ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 13:57:16.704
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.kTPBLJofisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 13:57:16.704
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 13:57:16.704
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 13:57:16.704
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 13:57:16.704
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.kTPBLJof => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 13:57:16.704
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 13:57:16.706
+!MESSAGE classpath=98 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 13:57:16.707
+!MESSAGE buffering callback sts4.classpath.kTPBLJof backend false 98
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 13:57:16.707
+!MESSAGE executing callback sts4.classpath.kTPBLJof 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 13:57:16.971
+!MESSAGE executing callback sts4.classpath.kTPBLJof SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-01-12 14:05:35.294
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-01-12 14:17:44.699
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 14:37:29.746
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.kTPBLJof
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 14:37:29.747
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.kTPBLJof
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 14:37:29.747
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-01-12 14:37:29.747
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.kTPBLJof => OK
