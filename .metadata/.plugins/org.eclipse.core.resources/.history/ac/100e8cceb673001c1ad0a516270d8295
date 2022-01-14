@@ -1,5 +1,0 @@
-package com.matheus.dsmovie.config;
-
-public class SecurityConfig {
-
-}

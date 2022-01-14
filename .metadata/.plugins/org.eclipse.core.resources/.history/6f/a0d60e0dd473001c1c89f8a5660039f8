@@ -1,9 +1,0 @@
-package com.matheus.dsmovie.repositories;
-
-import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.matheus.dsmovie.entities.User;
-
-public interface ScoreRepository extends JpaRepository<User, Long> {
-
-}

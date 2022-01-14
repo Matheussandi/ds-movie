@@ -1,7 +1,0 @@
-package com.matheus.dsmovie.entities;
-
-public class ScorePK {
-
-	private Movie movie;
-	private User user;
-}
